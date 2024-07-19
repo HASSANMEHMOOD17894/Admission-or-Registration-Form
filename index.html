@@ -1,0 +1,96 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Admission-or-Registration-Form</h1>
+        <form>
+            <fieldset><legend><b>For Candidate</b> </legend>
+            <p>
+                <h3>Name</h3>
+                <input type="text" name="firstname" id="first" required>&nbsp;<input type="text" name=" lastName" id="Last" required>
+                <br>
+                <label for="first">Firstname</label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for=" Last">LastName</label>
+            </p>
+            <p>
+                <h3>Birth Date</h3>
+                <input type="date" name="month" required>
+               
+
+            </p>
+            <p>
+                <h3>Gender</h3>
+                <input type="radio" name="Gender"id="male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="female"required>
+                <label for="female">Female</label>
+            </p>
+            <p>
+                <h3>Contact No.</h3>
+                
+                    <input type="tel" name="phone" placeholder="03xxxxxxxxx" id="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </p>
+            <p>
+                <h3>E-mail</h3>
+                
+                    <input type="email" name="email" id="email" placeholder="@example.com" required >
+                    
+            </p>
+        </fieldset>
+        <br>
+        <fieldset><legend><b>For Current Residence</b></legend>
+            <p>
+                <h3>Mailing Address</h3>
+                <input type = "address" name="address" id="address" placeholder="houseno/sheet no/area/city" required >
+                <br><br>
+                <input type = "address" name="address" id="postalcode" placeholder=""><br>
+                <label for="postalcode">PostalCode </label>
+            </p>
+        </fieldset>
+            <br>
+            <fieldset> <legend><b>For Guardian</b></legend>
+                <p>
+                   
+                    
+                </p>
+                <p>
+                    <input type="text" name="firstname" id="first" required>&nbsp;<input type="text" name=" lastName" id="Last" required>
+                    <br>
+                    <label for="first">Firstname</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for=" Last">LastName</label>
+                </p>
+                <p>
+                    <h3>Relationship</h3>
+                    <input type="text" name="Relationship" required>
+                </p>
+                <p>
+                    <h3>Email</h3>
+                    <input type="email" name="email" id="email"placeholder="@example.com" required ><br>
+                    
+                </p>
+                <h3>Contact No.</h3>
+                
+                    <input type="tel" name="phone" placeholder="03xxxxxxxxx" id="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                   <h3>Do you speak any languages other than English?</h3>
+                    <input type="radio" name="radio" id="yes" value="yes" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radio" id="No" value="No" required><br>
+                    <label for="yes">Yes</label> &nbsp;&nbsp;&nbsp;&nbsp;<label for="yes">No</label>
+                </p>
+
+            </fieldset>
+           <button >Submit</button>
+           
+           
+           
+
+        </form>
+        
+
+    </body>
+</html>
